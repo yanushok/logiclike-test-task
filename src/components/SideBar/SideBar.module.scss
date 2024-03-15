@@ -1,0 +1,27 @@
+.container {
+  border-radius: 18px;
+  border: 1px solid #cfcfe4;
+  padding: 11px;
+
+  .item {
+    padding: 12px;
+    border-radius: 12px;
+    font-size: 18px;
+    line-height: 18px;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &.active {
+      background-color: #5fbf77;
+      color: white;
+    }
+  }
+}
+
+.skeleton {
+  border-radius: 18px;
+  overflow: hidden;
+  display: flex;
+}

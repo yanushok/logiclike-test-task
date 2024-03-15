@@ -1,0 +1,27 @@
+.container {
+  padding: 24px;
+  display: flex;
+
+  .sidebar {
+    border-radius: 18px;
+    display: flex;
+    overflow: hidden;
+    width: 264px;
+    height: 438px;
+  }
+
+  .list {
+    margin-left: 24px;
+    gap: 18px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    flex: 1;
+
+    .card {
+      height: 210px;
+      border-radius: 18px;
+      overflow: hidden;
+      display: flex;
+    }
+  }
+}
